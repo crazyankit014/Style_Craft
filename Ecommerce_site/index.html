@@ -164,8 +164,8 @@
     </section>
     <!-- ========== End Extra Product Section ==========-->
 
-     <!-- ========== Start policy ========== -->
-     <section class="section-policy">
+    <!-- ========== Start policy ========== -->
+    <section class="section-policy">
       <div class="container grid grid-four--cols">
         <div class="div-policy">
           <div class="icons">
@@ -208,10 +208,70 @@
         </div>
       </div>
     </section>
+
+    <!-- ========== Start Our Products Section ========== -->
+
+    <section class="section-products container">
+      <div class="">
+        <h2 class="section-common--heading">Checkout Style Craft Store</h2>
+      </div>
+
+      <section class="container">
+        <div id="productContainer"></div>
+      </section>
+    </section>
     <!-- ========== End policy ========== -->
 
-     <!-- ========== Start Why Choose Us Section ========== -->
-     <section class="section-why--choose">
+    <template id="productTemplate">
+      <div class="cards" id="cardValue">
+        <article class="information [card]">
+          <span class="category"></span>
+          <div class="imageContainer">
+            <img class="productImage" src="" alt="" />
+          </div>
+          <h2 class="productName"></h2>
+
+          <div class="productRating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p class="productDescription"></p>
+
+          <div class="productPriceElement">
+            <p class="productPrice"></p>
+            <p class="productActualPrice"></p>
+          </div>
+
+          <div class="productStockElement">
+            <p class="productProperty">Total Stocks Available:</p>
+            <p class="productStock"></p>
+          </div>
+
+          <div class="productQuantityElement">
+            <p class="productProperty">Quantity(Pieces)</p>
+            <div class="stockElement">
+              <button class="cartIncrement">+</button>
+              <p class="productQuantity">1</p>
+              <button class="cartDecrement">-</button>
+            </div>
+          </div>
+
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+          </button>
+        </article>
+      </div>
+    </template>
+
+    <!-- ========== End Product Template Section ========== -->
+     <!-- ========== End Our Products Section ========== -->
+
+    <!-- ========== Start Why Choose Us Section ========== -->
+    <section class="section-why--choose">
       <div class="container">
         <h2 class="section-common--heading">Why Choose Style craft Store</h2>
         <p class="section-common--subheading">
@@ -226,9 +286,9 @@
             <p class="common-text--highlight">1</p>
             <h3 class="section-common--title">Wide Selection</h3>
             <p>
-              Style craft Store offers a diverse range of gadgets, from smartphones to
-              smart home devices, ensuring you find what you need to elevate
-              your lifestyle and meet your tech requirements.
+              Style craft Store offers a diverse range of gadgets, from
+              smartphones to smart home devices, ensuring you find what you need
+              to elevate your lifestyle and meet your tech requirements.
             </p>
           </div>
 
@@ -240,9 +300,9 @@
             <p class="common-text--highlight">2</p>
             <h3 class="section-common--title">Quality Assurance</h3>
             <p>
-              Every gadget at Style craft Store undergoes rigorous quality checks,
-              guaranteeing reliability and performance, so you can shop with
-              confidence knowing you're getting the best.
+              Every gadget at Style craft Store undergoes rigorous quality
+              checks, guaranteeing reliability and performance, so you can shop
+              with confidence knowing you're getting the best.
             </p>
           </div>
 
@@ -288,10 +348,10 @@
             <p class="common-text--highlight">5</p>
             <h3 class="section-common--title">Convenient Shopping</h3>
             <p>
-              With Style craft Store, shopping for gadgets is easy and convenient. Our
-              user-friendly website and secure payment options ensure a seamless
-              experience from browsing to checkout, all from the comfort of your
-              home.
+              With Style craft Store, shopping for gadgets is easy and
+              convenient. Our user-friendly website and secure payment options
+              ensure a seamless experience from browsing to checkout, all from
+              the comfort of your home.
             </p>
           </div>
 
@@ -303,8 +363,8 @@
             <p class="common-text--highlight">6</p>
             <h3 class="section-common--title">Excellent Service</h3>
             <p>
-              Style craft Store is committed to providing excellent service to our
-              customers. From prompt assistance with inquiries to efficient
+              Style craft Store is committed to providing excellent service to
+              our customers. From prompt assistance with inquiries to efficient
               handling of orders and deliveries, we prioritize your satisfaction
               every step of the way.
             </p>
@@ -320,8 +380,8 @@
         <div class="content_1">
           <img src="./images/logo.png" alt="logo" />
           <p>
-            Welcome to Style Craft, your ultimate destination for
-            cutting-edge gadgets!
+            Welcome to Style Craft, your ultimate destination for cutting-edge
+            gadgets!
           </p>
           <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
         </div>
@@ -357,6 +417,5 @@
     </footer>
 
     <!-- ========== End footer Section ========== -->
-
   </body>
 </html>
